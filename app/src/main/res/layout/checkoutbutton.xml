@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@+id/checkOut"
+    android:layout_width="@dimen/dp100"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:fontFamily="sans-serif-condensed"
+    android:layout_marginTop="@dimen/dp10"
+    android:text="@string/checkout"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Retail Shopping</string>
+    <string name="category">Shop by Category</string>
+    <string name="product_details">Product Details</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="addtocart">Added to cart Successfully</string>
+    <string name="addedtocart">Added to cart</string>
+    <string name="shoppingcart">Shopping cart</string>
+    <string name="your_cart_is_empty">Your cart is empty</string>
+    <string name="remove"><u>Remove</u></string>
+    <string name="checkout">Checkout</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/dp120"
+                android:src="@drawable/tv"
+                android:padding="@dimen/dp10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_height="@dimen/dp120" />
+
+        <LinearLayout
+            android:layout_toRightOf="@id/image"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:textSize="@dimen/sp18"
+                    android:text=""
+                    android:padding="@dimen/dp10"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/removeFromCart"
+                    android:layout_width="wrap_content"
+                    android:textSize="@dimen/sp15"
+                    android:layout_gravity="start"
+                    android:text="@string/remove"
+                    android:paddingLeft="@dimen/dp10"
+                    android:textColor="@android:color/darker_gray"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp10" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@android:drawable/divider_horizontal_bright"
+        android:layout_height="@dimen/dp1"/>
+</LinearLayout>

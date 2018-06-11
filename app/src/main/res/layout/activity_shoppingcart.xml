@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/cartContainer"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/emptyView"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="@dimen/dp250"
+            android:src="@drawable/ic_empty_box_open"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_height="@dimen/dp250" />
+        <TextView
+            android:layout_width="wrap_content"
+            app:fontFamily="sans-serif-condensed"
+            android:text="@string/your_cart_is_empty"
+            android:padding="@dimen/dp10"
+            android:gravity="center"
+            android:textSize="@dimen/sp18"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="@dimen/dp70"
+            android:layout_marginLeft="@dimen/dp104"
+            android:rotation="23"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</LinearLayout>
